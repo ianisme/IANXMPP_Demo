@@ -9,5 +9,4 @@
 #ifndef AppMacros_h
 #define AppMacros_h
 
-
 #endif /* AppMacros_h */

@@ -17,6 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
+    DDLogVerbose(@"这是个测试");
     // Do any additional setup after loading the view.
 }
 
