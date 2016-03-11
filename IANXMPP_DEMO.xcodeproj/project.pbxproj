@@ -7,23 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3C4745B71C917DB7001EAD32 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C4745B61C917DB7001EAD32 /* main.m */; };
-		3C4745BA1C917DB7001EAD32 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C4745B91C917DB7001EAD32 /* AppDelegate.m */; };
-		3C4745C21C917DB7001EAD32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C4745C11C917DB7001EAD32 /* Assets.xcassets */; };
-		3C4745C51C917DB7001EAD32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C4745C31C917DB7001EAD32 /* LaunchScreen.storyboard */; };
-		3C4745CE1C917EAC001EAD32 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C4745CD1C917EAC001EAD32 /* RootViewController.m */; };
+		1257A77774D8E79B40D032EE /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 97E7CE3785171A1D07FC0529 /* libPods.a */; };
+		3C4745E11C925D5D001EAD32 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C4745D21C925D5D001EAD32 /* AppDelegate.m */; };
+		3C4745E21C925D5D001EAD32 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C4745D71C925D5D001EAD32 /* RootViewController.m */; };
+		3C4745E51C925D5D001EAD32 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C4745E01C925D5D001EAD32 /* main.m */; };
+		3C4745E71C925D9A001EAD32 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C4745E61C925D9A001EAD32 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3C4745B21C917DB7001EAD32 /* IANXMPP_DEMO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IANXMPP_DEMO.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3C4745B61C917DB7001EAD32 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3C4745B81C917DB7001EAD32 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		3C4745B91C917DB7001EAD32 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3C4745C11C917DB7001EAD32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3C4745C41C917DB7001EAD32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		3C4745C61C917DB7001EAD32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3C4745CC1C917EAC001EAD32 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
-		3C4745CD1C917EAC001EAD32 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		3C4745D11C925D5D001EAD32 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3C4745D21C925D5D001EAD32 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3C4745D61C925D5D001EAD32 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		3C4745D71C925D5D001EAD32 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		3C4745DF1C925D5D001EAD32 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C4745E01C925D5D001EAD32 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3C4745E61C925D9A001EAD32 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3C4745E81C9260AA001EAD32 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		3C4745E91C9263FA001EAD32 /* AppMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppMacros.h; sourceTree = "<group>"; };
+		7778F3933CC91EC58E04DE12 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		97E7CE3785171A1D07FC0529 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9847989A79897460E99F6DFA /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1257A77774D8E79B40D032EE /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +47,8 @@
 			children = (
 				3C4745B41C917DB7001EAD32 /* IANXMPP_DEMO */,
 				3C4745B31C917DB7001EAD32 /* Products */,
+				9A411B791B77E2CE8606390A /* Pods */,
+				7CF1DFC7B529F27E1A2BA0FA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,24 +63,122 @@
 		3C4745B41C917DB7001EAD32 /* IANXMPP_DEMO */ = {
 			isa = PBXGroup;
 			children = (
-				3C4745B81C917DB7001EAD32 /* AppDelegate.h */,
-				3C4745B91C917DB7001EAD32 /* AppDelegate.m */,
-				3C4745CC1C917EAC001EAD32 /* RootViewController.h */,
-				3C4745CD1C917EAC001EAD32 /* RootViewController.m */,
-				3C4745C11C917DB7001EAD32 /* Assets.xcassets */,
-				3C4745C31C917DB7001EAD32 /* LaunchScreen.storyboard */,
-				3C4745C61C917DB7001EAD32 /* Info.plist */,
-				3C4745B51C917DB7001EAD32 /* Supporting Files */,
+				3C4745CF1C925D5D001EAD32 /* Classes */,
+				3C4745DC1C925D5D001EAD32 /* Resources */,
+				3C4745DE1C925D5D001EAD32 /* Supporting Files */,
 			);
 			path = IANXMPP_DEMO;
 			sourceTree = "<group>";
 		};
-		3C4745B51C917DB7001EAD32 /* Supporting Files */ = {
+		3C4745CF1C925D5D001EAD32 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				3C4745B61C917DB7001EAD32 /* main.m */,
+				3C4745D01C925D5D001EAD32 /* App */,
+				3C4745D31C925D5D001EAD32 /* Controllers */,
+				3C4745D81C925D5D001EAD32 /* Util */,
+				3C4745DB1C925D5D001EAD32 /* Vendor */,
 			);
-			name = "Supporting Files";
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		3C4745D01C925D5D001EAD32 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				3C4745D11C925D5D001EAD32 /* AppDelegate.h */,
+				3C4745D21C925D5D001EAD32 /* AppDelegate.m */,
+				3C4745E91C9263FA001EAD32 /* AppMacros.h */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		3C4745D31C925D5D001EAD32 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3C4745D41C925D5D001EAD32 /* Common */,
+				3C4745D51C925D5D001EAD32 /* Home */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3C4745D41C925D5D001EAD32 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		3C4745D51C925D5D001EAD32 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				3C4745D61C925D5D001EAD32 /* RootViewController.h */,
+				3C4745D71C925D5D001EAD32 /* RootViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		3C4745D81C925D5D001EAD32 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				3C4745D91C925D5D001EAD32 /* Category */,
+				3C4745DA1C925D5D001EAD32 /* Common */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		3C4745D91C925D5D001EAD32 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		3C4745DA1C925D5D001EAD32 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		3C4745DB1C925D5D001EAD32 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		3C4745DC1C925D5D001EAD32 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3C4745E61C925D9A001EAD32 /* Images.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3C4745DE1C925D5D001EAD32 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C4745DF1C925D5D001EAD32 /* Info.plist */,
+				3C4745E01C925D5D001EAD32 /* main.m */,
+				3C4745E81C9260AA001EAD32 /* PrefixHeader.pch */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7CF1DFC7B529F27E1A2BA0FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				97E7CE3785171A1D07FC0529 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9A411B791B77E2CE8606390A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9847989A79897460E99F6DFA /* Pods.debug.xcconfig */,
+				7778F3933CC91EC58E04DE12 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,9 +188,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3C4745C91C917DB8001EAD32 /* Build configuration list for PBXNativeTarget "IANXMPP_DEMO" */;
 			buildPhases = (
+				D27C15F937C745A7CD204B68 /* Check Pods Manifest.lock */,
 				3C4745AE1C917DB7001EAD32 /* Sources */,
 				3C4745AF1C917DB7001EAD32 /* Frameworks */,
 				3C4745B01C917DB7001EAD32 /* Resources */,
+				D74CA53283A5247FC408EA6D /* Embed Pods Frameworks */,
+				F99FE93E558416D9A30D697B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -133,36 +241,72 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C4745C51C917DB7001EAD32 /* LaunchScreen.storyboard in Resources */,
-				3C4745C21C917DB7001EAD32 /* Assets.xcassets in Resources */,
+				3C4745E71C925D9A001EAD32 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D27C15F937C745A7CD204B68 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D74CA53283A5247FC408EA6D /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F99FE93E558416D9A30D697B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3C4745AE1C917DB7001EAD32 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C4745BA1C917DB7001EAD32 /* AppDelegate.m in Sources */,
-				3C4745B71C917DB7001EAD32 /* main.m in Sources */,
-				3C4745CE1C917EAC001EAD32 /* RootViewController.m in Sources */,
+				3C4745E21C925D5D001EAD32 /* RootViewController.m in Sources */,
+				3C4745E51C925D5D001EAD32 /* main.m in Sources */,
+				3C4745E11C925D5D001EAD32 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		3C4745C31C917DB7001EAD32 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3C4745C41C917DB7001EAD32 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		3C4745C71C917DB8001EAD32 /* Debug */ = {
@@ -249,9 +393,13 @@
 		};
 		3C4745CA1C917DB8001EAD32 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9847989A79897460E99F6DFA /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = IANXMPP_DEMO/Info.plist;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/IANXMPP_DEMO/Supporting Files/PrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/IANXMPP_DEMO/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ianisme.IANXMPP-DEMO";
@@ -261,9 +409,13 @@
 		};
 		3C4745CB1C917DB8001EAD32 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7778F3933CC91EC58E04DE12 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = IANXMPP_DEMO/Info.plist;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/IANXMPP_DEMO/Supporting Files/PrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/IANXMPP_DEMO/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ianisme.IANXMPP-DEMO";
@@ -290,6 +442,7 @@
 				3C4745CB1C917DB8001EAD32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

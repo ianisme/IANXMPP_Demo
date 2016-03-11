@@ -1,0 +1,14 @@
+//
+//  PrefixHeader.pch
+//  IANXMPP_DEMO
+//
+//  Created by ian on 16/3/11.
+//  Copyright © 2016年 ian. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "AppMacros.h"
+
+#endif /* PrefixHeader_pch */
