@@ -1,3 +1,7 @@
 platform :ios, '7.0'
-pod 'CocoaLumberjack'
-
+pod 'SDWebImage', '~> 3.7.5'
+pod 'XMPPFramework', '~> 3.6.6'
+pod 'TPKeyboardAvoiding', '~> 1.2.11'
+pod 'Masonry', '~> 0.6.4'
+pod 'ReactiveCocoa', '~> 2.5'
+pod 'PPiAwesomeButton', '~> 1.5.2'

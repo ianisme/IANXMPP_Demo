@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-#import "RootViewController.h"
+#import "MainViewController.h"
+#import "LoginViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,18 +18,14 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-
-    // Lumberjack
-    [DDLog addLogger:[DDTTYLogger sharedInstance]];
-    [[DDTTYLogger sharedInstance] setColorsEnabled:YES];
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     
-    RootViewController *controller = [[RootViewController alloc] init];
-    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:controller];
-    self.window.rootViewController = navController;
+    LoginViewController *controller = [[LoginViewController alloc] init];
+//    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:controller];
+    self.window.rootViewController = controller;
     
     return YES;
 }
